@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(bjp.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+.signupbox{
+    width: 40%;
+    height: 80%;
+    display: inline-block;
+    position: absolute;
+    border: solid 2px #f590fe;
+    border-radius: 9px;
+    color: white;
+    top: 5%;
+    left: 34%;
+    padding: 6px 0px 6px 6px;
+}
+::placeholder {
+    font-size: 17spx;
+    font-family: 'Times New Roman', Times, serif;  
+    color: #a424df;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding-bottom: 0px;
+
+}
+
+form{
+   padding: 6px 0px 6px 6px;
+}
+.inputbox{
+    padding-bottom: 3px;
+    margin:14px;
+}
+.inputbox input{
+    background: none;
+    outline: none;
+    color: #9128cb;
+    width: 75%;
+    padding: 9px 76px 0px 9px;
+    margin: 5px 2px 0px 0px;
+    border: none;
+    border-bottom: solid 3px purple;
+    font-size: 18px;
+}
+.inputbox span{
+    padding-left: 8px;
+    font-size: 18px;
+}
+.btn button{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 14px;
+    margin-right: 112px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    background: none;
+    border: solid 2px purple;
+    border-radius: 9px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.btn span,a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.btn span{
+    color:white
+}
+.btn a{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 4px;
+    color:#c51fdc
+}
+button:hover{
+    text-decoration: underline;
+    background-color:aliceblue;
+    color:#b852f3;
+}
+.btn span:hover{
+    text-decoration: underline;
+}
+
+.btn a:hover{
+    text-decoration: underline;
+}

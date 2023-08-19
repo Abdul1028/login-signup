@@ -1,0 +1,135 @@
+/* #body{
+    zoom: 100%; */
+*{
+    padding: 3px;
+    margin: 0px;
+}
+body{
+    background: url(bjp2.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+::placeholder {
+    color: #242020;
+}
+.container{
+    position: absolute;
+    top:0%;
+    left: 34%;
+    background: none;
+    outline: none;
+    /* border:  solid rgb(255, 201, 231) 2px;
+    border-radius: 3px; */
+    padding: 12px 9px 15px 9px;
+}
+.heading{
+    display: inline-block;
+    padding-left: 1px;
+    padding-bottom: 0px;
+    border: none;
+    border-bottom: solid 2px #623790;
+    border-width: 3px #623790;
+}
+form{
+    margin: 0px 3px 0px -14px;
+}
+.inputbox{
+    margin:14px;
+    padding-bottom: 4px;
+    outline: none;
+}
+.inputbox{
+    padding-bottom: 4px;
+    size: 75%;
+    width:75%;
+    background: none;
+    color: purple;
+    outline: none;
+
+}
+.inputbox input{
+    background: none;
+    color: #040404;
+    width: 115%;
+    outline: none;
+    border: none;
+    padding: 0px 6px 9px 0px;
+    margin: 2px 1px 7px 0px;
+    border-bottom: solid 2px #1c1652;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+}
+ .inputbox i, span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #dcffff;
+    padding-bottom: 7px;
+ }
+
+/* .inputbox span {
+    font-weight: bold;
+    font-size: 18px;
+} */
+.button {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    background: none;
+    outline: none;
+    border: solid 1px #1c1652;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #573a5f;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0px 0px 0px 14px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:aliceblue;
+    color:purple;
+}
+.inputbox i {
+    padding-right: 4px;
+}
+
+.inputbox span{
+    padding-top: 2px;
+}
+.inputbox a{
+    padding: 0px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 17px;
+    color:#252474;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.container2{
+    position: relative;
+    bottom: 30%;
+    top: 50%;
+    left: 60%;
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-top: -111px;
+    margin-left: -64px;
+}
+.container2 label{
+    font-size: 18px;
+    font-weight: 80px;
+}
+.container2 a{
+    position: inherit;
+    padding-right: 6px;
+    margin-right: 6px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ddfffe;
+}
+.container a:hover{
+    text-decoration: underline;
+}
