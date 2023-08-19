@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/7130167bc0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="container">
+        <div class="heading">
+            <h2 for="email">LogIn</h2>
+        </div>
+        <form action="connect2.php" method="post">
+            <div class="inputbox">
+                <i for="email" class="fa fa-user-circle-o"></i><span class="spann">Username</span>
+                <input type="text" id="text" name="username" placeholder="Enter your Username ">
+            </div>
+
+            <div class="inputbox">
+                <i class="fa-solid fa-lock" id="icon"></i><span class="spann">Password</span>
+                <input type="password" id="pass" name="psw" placeholder="Enter your passsword">
+            </div>
+            <div class="inputbox">
+                <a href="otp.html" target="_blank">Forgot Password???</a>
+            </div>
+            <button class="button">Login</button>
+            <div class="container2">
+                <div><label>Dont have an account???</label>
+                    <a href="signup_form.html">Sign up</a> </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
